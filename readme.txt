@@ -1,3 +1,19 @@
+
+-------------status: running traiining ok, 6/7 2pm---------------
+check 
+"to run"
+tbd: 
+	docker image pyenv two pytorch
+	run 3d-vehicle-tracking with this faster-rcnn
+
+------------6/7/2020 google colab example ------------------------
+Shared from Choi:
+	Test_faster-rcnn.ipynb
+	Faster-rcnn.ipynb
+	3d-vehicle-tracking.ipynb
+My drive/Colab notebooks/
+	Readme-3dtracking.ipynb
+------------------------------------------------------------------
 the fast-rcnn.pytorch included is "old" and compiled with torch 0.4
 
 "new" fast-rcnn.pytorch at seperate folder build with torch 1.2.0 and require other packages. it build well with colab, see notepad test_faster-rcnn.ipynb
@@ -7,6 +23,7 @@ building locally at docker image
     --- pip install torch==1.5.0 pycocotools scipy==1.1.0 pillo==6.1
 --- to build:
 	google notepad test_faster-rcnn.ipynb, 
+
 	or locally with docker image jwang3vsu/cuda90py3ub16
 		docker info:
 			1T ssd#6, dockerimg, /Documents/pose6d/cuda90py3/readme.txt
